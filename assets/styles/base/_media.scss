@@ -1,0 +1,1123 @@
+@media screen and (max-width: 1550px) {
+    .backstage {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $firstBp) {
+    .pets-list {
+        grid-row-gap: 92px;
+    }
+    .pets-slider-next,
+    .pets-slider-prev {
+        z-index: 1;
+    }
+    .pets-slider-prev {
+        left: 400px;
+    }
+    .pets-slider-next {
+        right: 400px;
+    }
+    .pets {
+        &::before {
+            top: 2224px;
+        }
+        &::after {
+            top: 2316px;
+        }
+    }
+    .testimonials {
+        &::after {
+            top: 4320px;
+        }
+    }
+}
+
+@media screen and (max-width: $secondBp) {
+    .container {
+        width: 940px;
+    }
+    .watch-online {
+        margin-bottom: 110px;
+        padding-top: 30px;
+        padding-bottom: 47px; //60
+        background-image: url('../../assets/images/Giant-Panda-Adap.jpg');
+    }
+    .page-header .page-navigation .naviagtion-list .navigation-item {
+        padding-right: 19px;
+    }
+    .watch-online-title {
+        @include fontPref(85.2px, 700, 63.9px);
+        margin-right: 53px;
+        margin-bottom: 40px;
+        margin-top: 13px;
+    }
+    .watch-online-wrapper {
+        &::before {
+            top: -53px;
+            left: -65px;
+
+            width: 367px;
+            height: 367px;
+        }
+    }
+    .watch-online-button {
+        margin-right: 96px;
+    }
+    .backstage {
+        margin-bottom: 131px;
+    }
+    .backstage-image {
+        margin-right: 31px;
+    }
+    .backstage-image-adaprive {
+        display: inline;
+    }
+    .backstage-desktop {
+        display: none;
+    }
+    .backstage-title {
+        margin-bottom: 21px;
+    }
+    .backstage-description {
+        transform: translateY(-10px);
+    }
+    .pets-list {
+        grid-column-gap: 27px;
+    }
+    .pets-item {
+        max-width: 293px;
+    }
+    .pets-item-image {
+        max-width: 294px;
+    }
+    .pets-slider-prev {
+        left: 324px;
+    }
+    .pets-slider-next {
+        right: 322px;
+    }
+    .pet-meat {
+        &::after {
+            right: 10px;
+        }
+    }
+    .pets {
+        margin-bottom: 140px;
+        &::before {
+            top: 2126px;
+            background-image: url('../../assets/images/flower3-adap.png');
+        }
+        &::after {
+            top: 2008px;
+            background-image: url('../../assets/images/flower2-adap.png');
+        }
+    }
+    .pick-and-feed {
+        padding-top: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
+    }
+    .pick-and-feed-wrapper {
+        padding: 30px 48px 50px 49px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-title {
+        margin-bottom: 20px;
+        transform: translateX(0px);
+    }
+    .pick-and-feed-wrapper .pick-and-feed-intro {
+        margin-bottom: 22px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-up {
+        padding-right: 30px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-up .aaa {
+        position: static;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-down {
+        padding-right: 30px;
+        margin-bottom: 40px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list {
+        justify-content: space-around;
+        margin-bottom: 72px;
+    }
+    .pick-and-feed-item:nth-child(2) {
+        margin-right: 52px;
+        margin-left: 52px;
+    }
+    .pick-and-feed-item:nth-child(1) {
+        &::after {
+            right: -100px;
+        }
+    }
+    .pick-and-feed-item:nth-child(2) {
+        &::after {
+            right: -99px;
+        }
+    }
+    .testimonials-title {
+        margin-bottom: 30px;
+    }
+    .testimonials-list {
+        width: 3760px;
+    }
+    .testimonials-item {
+        margin-right: 30px;
+    }
+    .testimonials-item {
+        min-width: 289px;
+    }
+    .testimonials-slider input[type=range] {
+        width: 390px;
+    }
+    .testimonials-slider input[type=range]::-webkit-slider-thumb {
+        width: 75px;
+        height: 7px;
+    }
+    .testimonials-slider input[type=range]::-webkit-slider-runnable-track {
+        padding-top: 0.5px;
+    }
+    .testimonials-slider {
+        margin-bottom: 23px
+    }
+    .testimonials {
+        margin-bottom: 143px;
+        &::after {
+            top: 3809px;
+            background-size: 65%;
+        }
+    }
+    .grid-footer {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .footer-logo-wrapper {
+        grid-column: 1 / 3;
+    }
+    .footer-subscribe {
+        grid-column: 3 / 5;
+        margin-right: 33px;
+    }
+    .naviagtion-list-footer {
+        grid-column: 2 / 4;
+        transform: translateX(-12px);
+    }
+    .navigation-item-footer {
+        margin-right: 48px;
+    }
+    .footer-subscribe-donate {
+        margin-right: 34px;
+    }
+    .grid-footer-donate {
+        grid-row-gap: 8px;
+    }
+    .watch-online2 {
+        height: 388px;
+        background-image: url('../../assets/images/Giant-Panda-Adap.jpg');
+        background-size: 133%;
+        background-position: -40px;
+    }
+    .donation {
+        padding-top: 42px;
+        padding-bottom: 30px;
+    }
+    .donation-title {
+        padding-right: 100px;
+        margin-bottom: 29px;
+    }
+    .donation-description {
+        margin-bottom: 45px;
+        padding-right: 8px;
+    }
+    .donation-info {
+        margin-bottom: 40px;
+    }
+    .donation-wrapper {
+        padding: 20px 44px 46px 47px;
+    }
+    .pick-and-feed-title2 {
+        margin-bottom: 12px;
+    }
+    .dit-wrapper {
+        transform: translateX(-9px);
+        margin-bottom: 47px;
+    }
+    .count-diet {
+        .integer {
+            @include fontPref(72px, 500, 57.6px);
+        }
+        &::after {
+            top: 22px;
+        }
+    }
+    .donation-line-description {
+        margin-left: 16px;
+        margin-bottom: 16px;
+    }
+    .donation-line {
+        padding: 13px 12px;
+        margin-left: 18px;
+        margin-right: 22px;
+        margin-bottom: 100px;
+        background-color: #404950;
+        border-radius: 3px;
+    }
+    .donation-line-item:first-child {
+        display: none;
+    }
+    .yellow-circle {
+        margin-right: 120px;
+    }
+    .donation-line-item:last-child .yellow-circle {
+        margin-right: 20px;
+    }
+    .donation-line-amount {
+        left: -14px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .container {
+        width: 600px;
+    }
+    .navigation-link-designed {
+        display: none;
+    }
+    .watch-online {
+        margin-bottom: 70px;
+        padding-top: 27px;
+        padding-bottom: 86px;
+    }
+    .watch-online-wrapper {
+        margin-right: 0;
+        &::before {
+            top: -39px;
+            left: -43px;
+            width: 238px;
+            height: 238px;
+        }
+    }
+    .watch-online-title {
+        @include fontPref(54.42px, 700, 40.81px);
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-top: 22px;
+    }
+    .watch-online-button {
+        position: absolute;
+        top: 197px;
+        left: -352px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .backstage {
+        margin-bottom: 68px;
+        &::after {
+            top: 354px;
+            display: block;
+            background-image: url('../../assets/images/flower1-adap.png');
+        }
+    }
+    .backstage-image {
+        display: none;
+    }
+    .backstage-description {
+        max-width: 495px;
+    }
+    .backstage-title {
+        margin-left: 4px;
+    }
+    .backstage .backstage-founded {
+        margin-bottom: 30px;
+    }
+    .backstage .backstage-subtitle {
+        margin-bottom: 20px;
+        margin-left: 4px;
+    }
+    .pets {
+        margin-bottom: 100px;
+        .pets-slider {
+            margin-bottom: 60px;
+            overflow-x: hidden;
+        }
+        .pets-button {
+            padding-top: 18px;
+            padding-bottom: 16px;
+        }
+        &::before {
+            top: 1695px;
+            background-image: url('../../assets/images/flower3-640.png');
+        }
+        &::after {
+            top: 1602px;
+            background-size: 44%;
+        }
+    }
+    .pets-slider-wrapper {
+        height: 758px;
+        overflow-y: hidden;
+    }
+    .pets-list {
+        grid-template-columns: 1fr 1fr;
+    }
+    .pets-item {
+        max-width: 283px;
+    }
+    .pet-title {
+        @include fontPref(12.47px, 500, 17.46px);
+        margin-left: 12px;
+    }
+    .pet-description {
+        @include fontPref(11.69px, 300, 14.03px);
+        padding-bottom: 10.5px;
+        margin-left: 12px;
+    }
+    .pets-list .pets-item .pets-image-wrapper {
+        margin-bottom: 3px;
+        max-height: 285px;
+    }
+    .pet-banana {
+        &::after {
+            bottom: 6px;
+            right: 1px;
+            background-size: 80%;
+            background-repeat: no-repeat;
+        }
+    }
+    .pet-meat {
+        &::after {
+            bottom: 6px;
+            right: -5px;
+            background-size: 80%;
+            background-repeat: no-repeat;
+        }
+    }
+    .pets-slider-prev {
+        top: 49.5%;
+        left: 224px;
+    }
+    .pets-slider-next {
+        top: 49.5%;
+        right: 224px;
+    }
+    .container-pick-and-feed {
+        width: 640px;
+    }
+    .pick-and-feed {
+        margin-bottom: 62px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pick-and-feed-wrapper {
+        padding: 10px 20px 61px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-title {
+        @include fontPref(42px, 400, 50.4px);
+    }
+    .pick-and-feed-wrapper .pick-and-feed-intro {
+        @include fontPref(22px, 400, 26.4px);
+        margin-bottom: 20px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-up {
+        padding-right: 0;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-down {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-subtitle {
+        margin-bottom: 20px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list {
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .pick-and-feed-item:nth-child(1),
+    .pick-and-feed-item:nth-child(2) {
+        &::after {
+            z-index: 1;
+            top: -18px;
+            right: -66px;
+
+            width: 100px;
+            height: 70px;
+
+            background-image: url('../../assets/icons/arrow-rotate-adap.svg');
+        }
+    }
+    .pick-and-feed-item:nth-child(2) {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .pick-and-feed-item:nth-child(3) {
+        margin-right: 12px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list .pick-and-feed-item-wrapper {
+        margin-bottom: 27px;
+    }
+    .pick-and-feed .pick-and-feed-button {
+        padding-top: 17px;
+        padding-bottom: 15px;
+        padding-left: 74px;
+        padding-right: 74px;
+    }
+    .testimonials {
+        margin-bottom: 83px;
+        &::after {
+            top: 3208px;
+            background-size: 39%;
+            background-image: url('../../assets/images/flower4-640.png');
+        }
+    }
+    .testimonials-slider {
+        overflow-y: scroll;
+        overflow-x: visible;
+        max-height: 360px;
+        margin-bottom: 35px;
+        padding-bottom: 0;
+    }
+    .testimonials-slider::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    .testimonials-list {
+        flex-direction: column;
+        width: 600px;
+        margin-bottom: 0;
+    }
+    .testimonials-item {
+        box-sizing: border-box;
+        min-width: 100%;
+        // min-width: 99.2%;
+        // max-height: 104px;
+        height: 109px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .testimonials-item:last-child {
+        margin-bottom: 0;
+    }
+    .testimonials-item-flex {
+        margin-bottom: 6px;
+    }
+    .card-description {
+        max-height: 38px;
+    }
+    .testimonials-button {
+        margin: 0 auto;
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+    .scrollbar {
+        display: none;
+    }
+    .grid-footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 183px 75px;
+        padding-top: 12px;
+        padding-bottom: 12px
+    }
+    .grid-footer-donate {
+        grid-row-gap: 0;
+    }
+    .footer-subscribe {
+        display: none;
+    }
+    .social-desc {
+        display: none;
+    }
+    .footer-logo-wrapper {
+        grid-column: 1 / 2;
+    }
+    .footer-logo-link {
+        margin-bottom: 28px;
+    }
+    .footer-logo-button {
+        padding-top: 16px;
+    }
+    .socials-list {
+        grid-column: 2 / 3;
+        justify-self: end;
+        transform: translateY(-1px);
+        align-self: start;
+    }
+    .social-item {
+        margin-bottom: 20px;
+    }
+    .social-circle {
+        margin-right: 0;
+    }
+    .naviagtion-list-footer {
+        grid-column: 1 / 2;
+        transform: translateX(0);
+    }
+    .grid-footer-donate .navigation-item-footer {
+        margin-right: 37px;
+    }
+    .grid-footer-donate .naviagtion-list-footer {
+        transform: translateX(-12px);
+    }
+    .navigation-item-footer {
+        margin-right: 37px;
+    }
+    .watch-online2 {
+        height: 335px;
+        background-size: 179%;
+        background-position: -160px;
+    }
+    .donation {
+        padding-top: 30px;
+        padding-bottom: 46px;
+    }
+    .donation-title {
+        padding-right: 0;
+        @include fontPref(24px, 400, 28.8px);
+        margin-bottom: 20px;
+    }
+    .donation-description {
+        padding-right: 5px;
+        margin-bottom: 30px;
+    }
+    .donation-info {
+        margin-bottom: 30px;
+    }
+    .donation-wrapper {
+        padding: 30px 0px 31px;
+    }
+    .pick-and-feed-title2 {
+        margin-bottom: 20px;
+        transform: translateX(0px);
+    }
+    .pick-and-feed-intro {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .count-diet {
+        margin-left: 5px;
+    }
+    .dit-wrapper {
+        margin-bottom: 40px;
+    }
+    .donation-line-description {
+        margin-bottom: 7px;
+        margin-left: 9px;
+    }
+    .donation-line {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 12.5px;
+        padding-bottom: 12.5px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 98px;
+    }
+    .donation-line-item:nth-child(2),
+    .donation-line-item:nth-child(3) {
+        display: none;
+    }
+    .donation-line-amount {
+        left: -20px
+    }
+    .another-amount-input {
+        max-width: 172px;
+        padding: 11px 0px 11px 6px;
+        margin-bottom: 30px;
+    }
+    .amount-input-wrapper::before {
+        top: 11px;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        max-height: 34px;
+    }
+    .watch-online {
+        padding-top: 61px;
+    }
+    .navigation-logo {
+        display: none;
+    }
+    .navigation-logo-no-border {
+        display: inline;
+    }
+    .hamburger-wrapper {
+        display: block;
+    }
+    .naviagtion-list {
+        z-index: 3;
+        // display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: absolute;
+        top: 0;
+        right: -1000px;
+        width: 100vw;
+        height: 329px;
+        background-color: white;
+        transition: .5s;
+        opacity: 0;
+        .navigation-item {
+            padding: 0;
+            margin-left: 10px;
+            margin-bottom: 14.5px;
+        }
+        .navigation-item-link {
+            color: rgba(51, 59, 65, 1);
+        }
+        .current-link {
+            color: #FE9013;
+        }
+        .navigation-item-adap {
+            display: block;
+            margin-left: 10px;
+        }
+        .navigation-item-adap:first-child {
+            margin-top: 10px;
+            margin-bottom: 24px;
+        }
+        .navigation-adaptive-logo {
+            width: 66px;
+            height: 42px;
+        }
+        .navigation-link-designed-adaptive {
+            color: rgba(51, 59, 65, 1);
+        }
+        .close-nav-adaptive {
+            display: block;
+            position: absolute;
+            top: 4px;
+            right: 2px;
+            width: 30px;
+            height: 30px;
+            background-color: transparent;
+            border: none;
+            &::before,
+            &::after {
+                content: '';
+                position: absolute;
+                top: 50%;
+                left: 2px;
+
+                width: 22px;
+                height: 2px;
+                margin-top: -1px;
+
+                background-color: rgba(51, 59, 65, 1);
+            }
+            &::before {
+                transform: rotate(45deg);
+            }
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    .backstage {
+        &::after {
+            top: 308px;
+        }
+    }
+    .pets {
+        &::before {
+            top: 1649px;
+        }
+        &::after {
+            top: 1556px;
+        }
+    }
+    .testimonials {
+        &::after {
+            top: 3162px;
+        }
+    }
+    .watch-online2 {
+        height: 369px;
+        background-position: -160px -132px;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .container {
+        width: 300px;
+    }
+    .watch-online {
+        padding-top: 54px;
+        padding-bottom: 40px;
+        margin-bottom: 115px;
+        background-size: 100%;
+    }
+    .watch-online-title {
+        @include fontPref(28px, 700, 21px);
+        transform: translateX(-1px) translateY(-1px);
+    }
+    .watch-online-wrapper {
+        &::before {
+            top: -20px;
+            left: -20px;
+            width: 119px;
+            height: 119px;
+        }
+    }
+    .watch-online-button {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 298px;
+        margin-right: 0;
+        left: -172px;
+        top: 165px;
+    }
+    .backstage {
+        margin-bottom: 26px;
+        &::after {
+            top: 69px;
+            background-size: auto;
+            background-image: url('../../assets/images/flower1-320.png');
+        }
+    }
+    .backstage-title {
+        margin-left: 0;
+        @include fontPref(24px, 400, 28.8px);
+        margin-bottom: 10px;
+    }
+    .backstage .backstage-founded {
+        margin-top: 0;
+        margin-left: 2px;
+        margin-bottom: 21px;
+    }
+    .backstage .backstage-subtitle {
+        margin-top: 0;
+        margin-left: 2px;
+        margin-bottom: 9px;
+    }
+    .pets {
+        margin-bottom: 61px;
+        &::before {
+            top: 2203px;
+            background-size: auto;
+            background-image: url('../../assets/images/flower3-320.png');
+        }
+        &::after {
+            top: 2013px;
+            background-size: auto;
+            background-image: url('../../assets/images/flower2-320.png');
+        }
+    }
+    .pets-slider-wrapper {
+        height: 1390px;
+    }
+    .pets .pets-slider {
+        margin-bottom: 20px;
+    }
+    .pets-list {
+        grid-template-columns: 1fr;
+        max-height: 1395px;
+        overflow-y: hidden;
+        grid-row-gap: 19px;
+        margin-left: 7px;
+    }
+    .pets-list .pets-item {
+        justify-self: center;
+    }
+    .pets-slider-prev,
+    .pets-slider-next {
+        display: none;
+    }
+    .pick-and-feed {
+        padding-bottom: 19px;
+        margin-bottom: 31px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-description-up,
+    .pick-and-feed-wrapper .pick-and-feed-description-down {
+        display: none;
+    }
+    .pick-and-feed-list {
+        flex-direction: column;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list {
+        margin-bottom: 0;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list .pick-and-feed-item {
+        align-self: center;
+        margin-bottom: 41px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list .pick-and-feed-item:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .pick-and-feed-wrapper {
+        padding-top: 21px;
+        padding-bottom: 36px;
+        padding-right: 3px;
+        padding-left: 0;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-title {
+        @include fontPref(24px, 400, 28.8px);
+        transform: translateX(1px);
+        margin-bottom: 10px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-intro {
+        @include fontPref(18px, 400, 21.6px);
+        text-align: center;
+        margin-bottom: 22px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-subtitle {
+        @include fontPref(24px, 400, 28.8px);
+        transform: translateX(1px);
+    }
+    .pick-and-feed-item:nth-child(1)::after, .pick-and-feed-item:nth-child(2)::after {
+        transform: rotate(85deg);
+        top: 176px;
+        right: -47px;
+    }
+    .pick-and-feed-item:nth-child(2)::after {
+        top: 184px;
+    }
+    .pick-and-feed-item:nth-child(3) {
+        transform: translateX(5px);
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list .pick-and-feed-item-wrapper {
+        margin-bottom: 8px;
+    }
+    .pick-and-feed-wrapper .pick-and-feed-list .pick-and-feed-item-desription {
+        margin-top: 0;
+        transform: translateY(-1px) translateX(1px);
+    }
+    .pick-and-feed-item-desription:last-child {
+        transform: translateY(-3px) translateX(2px);
+    }
+    .pick-and-feed .pick-and-feed-button {
+        padding-right: 73px;
+        padding-left: 73px;
+        transform: translateY(-4px) translateX(1px);
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .testimonials {
+        margin-bottom: 61px;
+        &::after {
+            top: 3873px;
+            background-size: auto;
+            background-image: url('../../assets/images/flower4-320.png');
+        }
+    }
+    .testimonials-title {
+        @include fontPref(24px, 400, 28.8px);
+        margin-bottom: 19px;
+    }
+    .testimonials-slider {
+        margin-bottom: 26px;
+    }
+    .testimonials-list {
+        width: 300px;
+    }
+    .testimonials-button {
+        padding-top: 18px;
+        padding-bottom: 16px;
+    }
+    .testimonials-item-flex {
+        transform: translateX(-4px) translateY(-4px);
+        margin-bottom: 4px;
+    }
+    .card-avatar {
+        margin-right: 6px;
+    }
+    .card-location {
+        transform: translateY(-2px);
+    }
+    .grid-footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 44px 61px  77px 88px 44px;
+    }
+    .mobile-link {
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        justify-self: center;
+        align-self: center;
+    }
+    .footer-logo-wrapper {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        justify-self: center;
+        align-self: center;
+    }
+    .socials-list {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        .social-item {
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+    }
+    .social-item:last-child {
+        margin-right: 0;
+    }
+    .footer-logo-link {
+        display: none;
+    }
+    .footer-designed {
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        justify-self: right;
+        align-self: center;
+        letter-spacing: -0.5px;
+    }
+    .naviagtion-list-footer {
+        grid-column: 1 / 2;
+        grid-row: 5 / 6;
+        justify-self: center;
+        align-self: center;
+    }
+    .navigation-item-footer {
+        margin-right: 30px;
+    }
+    .grid-footer-donate .naviagtion-list-footer {
+        transform: translateX(-10px);
+    }
+    .grid-footer-donate .navigation-item-footer {
+        margin-right: 30px;
+    }
+    .watch-online2 {
+        height: 220px;
+        background-size: 200%;
+        background-position: -86px -60px;
+    }
+    .donation {
+        padding-bottom: 22px;
+    }
+    .donation-description {
+        line-height: 22px;
+        margin-bottom: 31px;
+    }
+    .donation-info {
+        @include fontPref(24px, 400, 28.8px);
+    }
+    .donation-wrapper {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pick-and-feed-title2 {
+        @include fontPref(24px, 400, 28.8px);
+        margin-bottom: 9px;
+    }
+    .pick-and-feed-intro {
+        @include fontPref(16px, 400, 22.4px);
+        margin-bottom: 10px;
+    }
+    .dit-wrapper {
+        transform: translateX(-1px);
+        margin-bottom: 4px;
+    }
+    .count-diet {
+        margin-left: 0;
+        margin-bottom: -43px;
+    }
+    .count-diet .integer {
+        @include fontPref(40.6px, 500, 32.48px);
+    }
+    .count-diet .count-diet-description {
+        @include fontPref(9.02px, 400, 12.63px);
+        transform: translateY(-2px);
+    }
+    .count-diet::after {
+        top: 14px;
+        right: -21px;
+        background-size: 50%;
+    }
+    .diet-image {
+        width: 160px;
+        margin-left: 5px;
+        align-self: flex-end;
+    }
+    .donation-line-description {
+        margin-left: 0;
+    }
+    .donation-line {
+        padding-left: 17.5px;
+        padding-right: 17.5px;
+        padding-top: 6.5px;
+        padding-bottom: 6.5px;
+        margin-bottom: 50px;
+        border-radius: 1px;
+    }
+    .donation-line-inner {
+        height: 1px;
+    }
+    .donation-line-item {
+        transform: translateY(-2px);
+    }
+    .yellow-circle {
+        width: 5px;
+        height: 5px;
+        margin-right: 60px;
+    }
+    .circle-border-external {
+        padding: 5px;
+        top: -10.5px;
+        left: -10px;
+    }
+    .circle-border-internal {
+        width: 11.5px;
+        height: 11.5px;
+    }
+    .donation-line-amount {
+        @include fontPref(13px, 500, 18.2px);
+        bottom: -29px;
+        left: -10px;
+    }
+    .donation-line-amount svg {
+        width: 5px;
+        height: 10px;
+    }
+    .sub-option-label {
+        margin-left: 7px;
+    }
+    .sub-option-label:first-child {
+        margin-right: 10px;
+    }
+    .subscription-option {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 62px;
+        padding-left: 58px;
+        margin-bottom: 26px;
+    }
+    .another-amount-input {
+        margin-bottom: 24px;
+    }
+    .donation-share {
+        width: 101%;
+        transform: translateX(-2px);
+    }
+    .grid-footer-donate {
+        grid-row-gap: 0;
+    }
+    .footer-logo-button {
+        padding-top: 18px;
+        padding-bottom: 17px;
+    }
+    // .pets-list .pets-item .pets-gorillas {
+    //     display: none;
+    // }
+}
+
+.show-menu {
+    opacity: 1;
+    right: 0;
+}
+
+.show-overlay {
+    pointer-events: all;
+    opacity: 1;
+}

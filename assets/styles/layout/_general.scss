@@ -1,0 +1,166 @@
+html {
+    scroll-behavior: smooth;
+    transition: .3s;
+}
+
+body {
+    position: relative;
+    // min-width: 1600px; //временно
+    min-height: 100vh;
+
+    margin: 0;
+    // margin: 0 auto;
+    padding: 0;
+
+    font-family: $mainFont;
+    font-style: normal;
+    @include fontPref();
+    color: $blackBlue;
+
+    transition: .3s;
+    background-color: $frostenGlassWhite;
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visuallly-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute; 
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+$dark-liner: darken($color: #F9804B, $amount: 15);
+$dark-liner2: darken(#FE9013, 5);
+
+.button {
+    display: block;
+    padding: 18px 92px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);;
+    &:hover {
+        // background-color: $orange;
+        background: linear-gradient(113.96deg, $dark-liner 1.49%, $dark-liner2 101.44%);
+    }
+    &:active {
+        background-color: $green;
+        background: linear-gradient(113.96deg, $green 1.49%, $green 101.44%);
+    }
+}
+
+.overlay {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.overlay-testimonials {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100%;
+    transition: .3s;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(1px);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.testimonials-item-current {
+    position: fixed;
+    z-index: 2;
+    top: 69vh;
+    left: 50%;
+    margin-top: -296px;
+    margin-left: -132px;
+    width: 264px;
+    height: 387px;
+    min-height: 387px;
+    transition: .3s;
+    .card-description {
+        max-height: 308px;
+    }
+}
+
+.close-testimonials-popup {
+    position: absolute;
+    z-index: 2;
+    top: -10px;
+    right: -26px;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    &::before,
+    &::after {
+        position: absolute;
+        content: '';
+
+        top: 8.5px;
+        left: 1px;
+
+        width: 18px;
+        height: 2px;
+
+        background: linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 50.74%, rgba(243, 169, 248, 0.66) 30.06%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+
+    }
+    &::before {
+        transform: rotate(45deg);
+    }
+    &::after {
+        transform: rotate(-45deg);
+    }
+}
+
+
+.pets-slider-wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.pets-slider-wrapper-width {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 2350px;
+    // width: 1160px;
+    transition: .5s;
+}

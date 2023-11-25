@@ -1,0 +1,326 @@
+.watch-online2 {
+    height: 386px;
+    padding: 0;
+    margin: 0;
+    
+    background-image: url('../../assets/images/giant-panda-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.watch-online-wrapper2 {
+    display: none;
+}
+
+.donation {
+    background: $orangeGradLight;
+    padding-top: 40px;
+    padding-bottom: 180px;
+}
+
+.donation-title {
+    margin: 0;
+    margin-bottom: -5px;
+    padding: 0;
+    @include fontPref(36px, 400, 46.8px);
+    color: white;
+}
+
+.donation-description {
+    @include fontPref();
+    color: $white;
+    margin-bottom: 44px;
+}
+
+.donation-info {
+    display: block;
+    @include fontPref(36px, 400, 46.8px);
+    color: $orange;
+    margin-bottom: 60px;
+}
+
+.donation-wrapper {
+    padding: 45px 92px 56px 92px;
+    border-radius: 20px;
+    background: rgba(253, 253, 255, 0.52);
+}
+
+.pick-and-feed-title {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 22px;
+    text-align: center;
+    transform: translateX(-8px);
+    @include fontPref(48px, 400, 57.6px);
+    color: $orange;
+}
+
+.pick-and-feed-intro {
+    display: block;
+    @include fontPref(24px, 400, 28.8px);
+    margin-bottom: 60px;
+}
+
+.dit-wrapper {
+    @include flex(center);
+    margin-bottom: 52px;
+    transform: translateX(-6px);
+}
+
+.diet-image {
+    display: block;
+    margin-left: 45px;
+}
+
+.count-diet {
+    align-self: center;
+    position: relative;
+    margin-bottom: -80px;
+    margin-right: 45px;
+    .integer {
+        @include fontPref(77px, 500, 57.6px);
+        text-align: center;
+        color: black;
+    }
+    .count-diet-description {
+        transform: translateY(-6px);
+    }
+    &::after {
+        content: "";
+        position: absolute;
+
+        top: 24px;
+        right: -24px;
+
+        width: 15px;
+        height: 15px;
+
+        background-image: url('../../assets/icons/x_icon.svg');
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+    }
+}
+
+.donation-line-description {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.donation-line {
+    padding: 13px 30px;
+    margin-bottom: 100px;
+    background-color: #404950;
+    border-radius: 5px;
+}
+
+.donation-line-inner {
+    height: 2px;
+    background-color: #72828E;
+}
+
+.donation-line-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.donation-line-item {
+    position: relative;
+    transform: translateY(-4px);
+}
+
+.circle-border-external {
+    position: absolute;
+    top: -18px;
+    left: -18.5px;
+    padding: 10px;
+
+    background-color: transparent;
+    border: 1px solid $orange;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .2s;
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        // .donation-line-amount svg path {
+        //     fill: $orange;
+        // }
+        // .donation-line-amount {
+        //     color: $orange;
+        // }
+    }
+}
+
+// .donation-line-item:nth-child(6) .circle-border-external {
+//     opacity: 1;
+// }
+
+.circle-border-internal {
+    width: 22px; 
+    height: 22px;
+    background-color: transparent;
+    border: 1px solid $orange;
+    border-radius: 50%;
+}
+
+.yellow-circle {
+    width: 10px;
+    height: 10px;
+    margin-right: 120px;
+    border-radius: 50%;
+    background-color: $yellow;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+// .donation-line-item:last-child .yellow-circle {
+//     margin-right: 0;
+// }
+
+.donation-line-amount {
+    position: absolute;
+    bottom: -58px;
+    left: -30px;
+    @include fontPref(26px, 500, 36.4px);
+}
+
+// .donation-line-item:nth-child(6) .donation-line-amount {
+//     color: #FE9013;
+// } 
+
+.donation-line-amount svg {
+    margin-right: -3px;
+    margin-bottom: -1px;
+}
+
+.current-amount {
+    color: $orange;
+}
+
+.amount-preference {
+    text-align: center;
+}
+
+
+.another-amount-input {
+    padding: 16px 14px;
+    padding-right:  65px;
+    margin-bottom: 25px;
+    border: 1px solid #929699;
+    border-radius: 2px;
+    background-color: transparent;
+}
+
+.amount-input-wrapper {
+    display: inline-block;
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        opacity: .6;
+        top: 16px;
+        right: 10px;
+
+        width: 12px;
+        height: 24px;
+
+        background-image: url("../../assets/icons/dollar.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+    }
+}
+
+.subscription-option {
+    margin-bottom: 30px;
+}
+
+.sub-option-label input[type=radio] {
+    background-color: transparent;
+    background-color: $orange;
+}
+
+.sub-option-input {
+    margin-right: 10px;
+}
+
+.sub-option-label {
+    position: relative;
+    cursor: pointer;
+}
+
+.sub-option-label:first-child {
+    margin-left: 9px;
+    margin-right: 70px;
+}
+
+.sub-option-label input[type="radio"] {
+    display: none;
+}
+
+.sub-option-label input[type="radio"] + .control-mark{
+    position: absolute;
+    top: 2px;
+    left: -26px;
+
+    width: 12px;
+    height: 12px;
+
+    border: 2px solid $orange;
+    border-radius: 50%;
+}
+
+.sub-option-label input[type="radio"]:checked + .control-mark::before {
+    content: "";
+     
+    position: absolute;
+    top: 2px;
+    left: 2px;
+
+    width: 8px;
+    height: 8px;
+    
+    background-color: $orange;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.pick-and-feed-button {
+    margin: 0 auto;
+    padding-left: 73px;
+    padding-right: 73px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    margin-bottom: 30px;
+}
+
+.donation-share {
+    margin: 0;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.donation-line-amount-current {
+    transition: .3s;
+    color: #FE9013;
+    svg path {
+        transition: .3s;
+        fill: #FE9013;
+    }
+}
+
+.show-circle {
+    opacity: 1;
+}
